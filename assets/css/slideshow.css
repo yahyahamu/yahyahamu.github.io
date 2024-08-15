@@ -1,0 +1,27 @@
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.mySlides {
+    display: none;
+    width: 100%;
+}
+
+.mySlides img {
+    width: 100%;
+    height: auto;
+}
+
+.fade {
+    animation: fade 2s ease-in-out;
+}
+
+@keyframes fade {
+    0% { opacity: 0; }
+    20% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { opacity: 0; }
+}
